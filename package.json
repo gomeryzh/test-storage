@@ -1,0 +1,25 @@
+{
+  "name": "test-storage",
+  "description": "test-storage",
+  "version": "1.0.0",
+  "author": "Volodymyr Omelianiuk",
+  "homepage": "https://github.com/gomeryzh/test-storage",
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gomeryzh/test-storage"
+  },
+  "main": "index.js",
+  "keywords": [
+    "session storage",
+    "nuxt",
+    "ssr",
+    "vue"
+  ],
+  "browserslist": [
+    "> 0.5%",
+    "not ie <= 10",
+    "not op_mini all"
+  ]
+}
