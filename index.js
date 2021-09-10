@@ -99,6 +99,8 @@ class SessionStorage {
   }
 }
 
-const hermesSessionStorage = new SessionStorage()
+(function () {
+  // const hermesSessionStorage = new SessionStorage()
 
-window.hermesSessionStorage = hermesSessionStorage
+  window.hermesSessionStorage = new SessionStorage()
+})();
