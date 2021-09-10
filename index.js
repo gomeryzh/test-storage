@@ -102,5 +102,7 @@ class SessionStorage {
 (function () {
   // const hermesSessionStorage = new SessionStorage()
 
-  window.hermesSessionStorage = new SessionStorage()
+  if (process.client) {
+    window.hermesSessionStorage = new SessionStorage()
+  }
 })();
